@@ -5,6 +5,11 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh '''
+
+                echo 'hello from webhook'
+
+                '''
             }
         }
         stage('Test') {
