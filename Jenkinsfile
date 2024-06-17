@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 sh '''
 
-                echo 'hello from webhook'
+                echo 'hello from webhook, For Jinesh'
 
                 '''
             }
