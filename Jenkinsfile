@@ -26,7 +26,7 @@ pipeline {
 
     post { 
         always { 
-            echo 'I will always run whether job is success or not'
+            echo 'I will always run whether job is success or not and this job from github repo.'
         }
         success{
             echo 'I will run only when job is success'
